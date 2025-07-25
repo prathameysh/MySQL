@@ -10,12 +10,13 @@ INSERT INTO student VALUES (20,'Charlie');
 
 SELECT * FROM company;
 
-SHOW DATABASES;
+
 
 SHOW TABLES;
 
 DROP table student;
 
-CREATE DATABASE practice_db;
+create DATABASE practice;
+SHOW DATABASES;
 
-USE ass1;
+USE practice;
