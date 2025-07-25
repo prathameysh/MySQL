@@ -1,0 +1,36 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SQLite Practice",
+            "database": "mydb.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "company.db",
+            "name": "Company"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "TemporaryDB",
+            "database": "temp.db"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Local MySQL",
+            "username": "root",
+            "password": "ishu.2009",
+            "database": "sys"
+        }
+    ]
+}
